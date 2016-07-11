@@ -1,0 +1,4 @@
+#!/bin/bash
+
+g++ -g -o main main.cc `pkg-config --libs opencv`
+g++ -g -o noise noise.cc `pkg-config --libs opencv`
